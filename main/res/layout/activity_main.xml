@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="552dp"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:text="CoRoN@!"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="323dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="346dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="314dp"
+        android:background="@drawable/ic_launcher_foreground"
+        android:text="What is  Corona virus "
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="329dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="437dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="245dp"
+        android:background="@drawable/ic_launcher_foreground"
+        android:text="Death Rate "
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="337dp"
+        android:layout_height="69dp"
+
+        android:layout_marginStart="37dp"
+
+        android:layout_marginTop="514dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="148dp"
+        android:background="@drawable/ic_launcher_foreground"
+        android:text="Picture of Corona Virus"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="331dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="597dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="68dp"
+        android:background="@drawable/ic_launcher_foreground"
+        android:text="How to prevent it "
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
